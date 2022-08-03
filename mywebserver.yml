@@ -1,5 +1,5 @@
 ---
-- hosts:
+- hosts: all
   tasks:
   - name: i want to install webserver on ansible nodes
     apt:
